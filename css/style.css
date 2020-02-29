@@ -18,7 +18,9 @@ li {
   width: 100px;
   padding: 30px ; 
 }
-
+a:hover{
+  background-color: chartreuse;
+}
 
 
 main{
@@ -55,7 +57,8 @@ h3{
 p{
   
   font-size: 16px;
-  overflow: auto;
+  overflow: scroll;
+  height: 325px;
 }
 input{
   color: white;
