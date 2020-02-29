@@ -1,0 +1,82 @@
+header * {
+  display: inline-block;
+}
+header {
+  background-color: gray;
+}
+
+header img{
+  margin: 5px 10px
+}
+
+ul {
+  float: right
+} 
+
+li {
+  
+  width: 100px;
+  padding: 30px ; 
+}
+
+
+
+main{
+  margin-top: 35px;
+}
+
+
+
+main > section{
+  margin: 35px 0;
+}
+
+main > section img{
+  display: block;
+  float: left;
+  margin:0 11px;
+}
+
+div{
+  clear: both;
+}
+
+.section2 {
+  float: left;
+  width: 960px;
+}
+
+h3{
+  
+  font-size: 20px;
+  font-weight: 600;
+}
+
+p{
+  
+  font-size: 16px;
+  overflow: auto;
+}
+input{
+  color: white;
+  background-color: black;
+  display: inline-block;
+  height:40px;
+  width: 150px;
+  border-radius:10px;
+  
+}
+
+input:hover {color:rgba(253, 228, 0, 0.705);
+  background-color: crimson;
+}  
+
+
+footer{
+ margin-top: 500px;
+  background-color: gray;
+  widows: 960px;;
+  height:70px;
+}
+
+
